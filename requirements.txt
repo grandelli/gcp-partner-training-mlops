@@ -1,9 +1,6 @@
-google-cloud-bigquery
-google-cloud-bigquery-storage
-cloudml-hypertune
+kfp==1.8.1
+google-cloud-bigquery==2.26.0
+google-cloud-bigquery-storage==2.7.0
+google-cloud-aiplatform==1.4.2
+cloudml-hypertune==0.1.0.dev6
 pytest
-pyarrow==5.0
-numpy==1.19
-pandas==1.0.5
-pandas-profiling==2.13.0
-joblib==0.14.1

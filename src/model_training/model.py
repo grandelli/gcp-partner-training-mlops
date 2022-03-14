@@ -35,6 +35,8 @@ def create_model_inputs():
 def _create_binary_classifier(feature_vocab_sizes, hyperparams):
     input_layers = create_model_inputs()
 
+    print(f"TensorFlow in TF remote image: {tf.__version__}")
+    
     layers = []
     for key in input_layers:
         feature_name = features.original_name(key)
