@@ -86,7 +86,7 @@ SERVING_RUNTIME = os.getenv("SERVING_RUNTIME", "tf2-cpu.2-5")
 SERVING_IMAGE_URI = f"us-docker.pkg.dev/vertex-ai/prediction/{SERVING_RUNTIME}:latest"
 
 BATCH_PREDICTION_BQ_DATASET_NAME = os.getenv(
-    "BATCH_PREDICTION_BQ_DATASET_NAME", "playground_us"
+    "BATCH_PREDICTION_BQ_DATASET_NAME", "partner_training"
 )
 BATCH_PREDICTION_BQ_TABLE_NAME = os.getenv(
     "BATCH_PREDICTION_BQ_TABLE_NAME", "chicago_taxitrips_prep"
